@@ -20,16 +20,4 @@ public class GreetingController {
 		return new ModelAndView("blog","blankModelName", model);
 		// TODO Auto-generated constructor stub
 	}
-
-	@RequestMapping("/pakkumised.html")
-	public ModelAndView pakkumised() {
-		return new ModelAndView("pakkumised");
-		// TODO Auto-generated constructor stub
-	}
-
-	@RequestMapping("/meist.html")
-	public ModelAndView meist() {
-		return new ModelAndView("meist");
-		// TODO Auto-generated constructor stub
-	}
 }

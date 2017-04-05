@@ -11,13 +11,13 @@
 <div>
 <div class="w3-top">
   <div class="w3-bar w3-white w3-wide w3-padding-8 w3-card-2">
-    <a href="html/index.html" class="w3-margin-left w3-bar-item w3-button"><b>CW</b> CarWash</a>
+    <a href="welcome.html" class="w3-margin-left w3-bar-item w3-button"><b>CW</b> CarWash</a>
     <!-- Float links to the right. Hide them on small screens -->
     <div class="w3-right w3-hide-small">
-      <a href="html/index.html" class="w3-bar-item w3-button">Kaart</a>
-      <a href="html/pakkumised.html" class="w3-bar-item w3-button">Pakkumised</a>
-      <a href="html/blog.html" class="w3-bar-item w3-button w3-margin-right">Blog</a>
-      <a href="html/meist.html" class="w3-bar-item w3-button w3-margin-right">Meist</a>
+      <a href="welcome.html" class="w3-bar-item w3-button">Kaart</a>
+      <a href="pakkumised.html" class="w3-bar-item w3-button">Pakkumised</a>
+      <a href="blog.html" class="w3-bar-item w3-button w3-margin-right">Blog</a>
+      <a href="meist.html" class="w3-bar-item w3-button w3-margin-right">Meist</a>
     </div>
   </div>
 </div>
