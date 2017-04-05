@@ -4,6 +4,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
+import com.SQL.*;
 
 @Controller
 public class GreetingController {
@@ -16,7 +17,7 @@ public class GreetingController {
 	@RequestMapping("/blog.html")
 	public ModelAndView blogi(ModelMap model) {
 		
-		model.addAttribute("randomNumber", Math.random());
+		model.addAttribute("randomNumber", SQL1.getName());
 		return new ModelAndView("blog","blankModelName", model);
 		// TODO Auto-generated constructor stub
 	}
