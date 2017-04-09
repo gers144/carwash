@@ -1,10 +1,11 @@
-package com.SQL;
+package com.javainuse;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+
  
 /**
  * Simple Java program to connect to MySQL database running on localhost and
@@ -21,29 +22,6 @@ public class SQL1 {
 	private static String name;
 	private static String location;
  
-    public static int getId() {
-		return id;
-	}
-
-	public static void setId(int id) {
-		SQL1.id = id;
-	}
-
-	public static String getName() {
-		return name;
-	}
-
-	public static void setName(String name) {
-		SQL1.name = name;
-	}
-
-	public static String getLocation() {
-		return location;
-	}
-
-	public static void setLocation(String location) {
-		SQL1.location = location;
-	}
 
 	// JDBC variables for opening and managing connection
     private static Connection con;
@@ -64,10 +42,11 @@ public class SQL1 {
             String query2 = "select name, location from pesulad where id=1";
             rs = stmt.executeQuery(query2);
             while (rs.next()) {
-            	id = rs.getInt(1);
-            	name = rs.getString(2);
-            	location = rs.getString(3);
+            	setName(rs.getString(1));
+            	location = rs.getString(2);
             }
+            System.out.println("check:" + SQL1.getName());
+
             
  
         } catch (SQLException sqlEx) {
@@ -79,5 +58,13 @@ public class SQL1 {
             try { rs.close(); } catch(SQLException se) { /*can't do anything */ }
         }
     }
+
+	public static String getName() {
+		return name;
+	}
+
+	public static void setName(String name) {
+		SQL1.name = name;
+	}
  
 }

@@ -68,7 +68,7 @@ Kui tihti on mõistlik autot pesta?
 
 Vastus on lihtne. Sõltub sellest, kui kiirelt auto määrdub ja kui palju mustust autole koguneb.
 
-								Teie suvaline number on: ${randomNumber}
+								Teie suvaline number on: ${name}
 
 <br>
 <br>
