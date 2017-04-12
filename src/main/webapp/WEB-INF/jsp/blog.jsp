@@ -59,30 +59,12 @@
                             <img class="media-object" src="http://www.tutorialspoint.com//scripts/img/logo-footer.png">
                         </a>
                         <div class="media-body">
-                            <h4 class="media-heading"><h1 class="center">Säästa loodust!</h1></h4>
-                            <p class="text-right">By Jazz Pesulad</p>
+                            <h4 class="media-heading"><h1 class="center">${tekst}</h1></h4>
+                            <p class="text-left">By ${autor}</p>
                             <p>
  
 
-Kui tihti on mõistlik autot pesta?
-
-Vastus on lihtne. Sõltub sellest, kui kiirelt auto määrdub ja kui palju mustust autole koguneb.
-
-								Teie suvaline number on: ${name}
-
-<br>
-<br>
-
-
-
-Juhul, kui plaanite autot ise pesta, teadke, et see ei olegi lihtsalt auto pesemine! Pesuained, pigi ja õlised jäägid kahjustavad maapinda ja sattudes sadevee kanalisatsiooni jõuab reostus ka veekogudesse.
-
-Alati on parem pesta autot seal, kus on selleks spetsiaalselt ehitatud kanalisatsioon.
-Enne üldkanalisatsiooni suundumist filtreeritakse vesi eelnevalt  liivast ja õlijääkidest.
-
-Ise pesemise peamiseks miinuseks on tavaliselt vähese vee kasutamine ja survepesuri puudumine. Veenduge, et enne švammiga pesemist olete survepesuri abil autolt eemaldanud liiva ja suurema mustuse. Ise (kodus) auto pesemiseks ostke  spetsiaalselt auto käsipesuks mõeldud pesuaineid.
-
-Ärge kuivatage autot paberrätiga. Paber kriimustab autovärvi ja sellega võib kuivatada vaid klaaspindu. Vee kuivatamiseks autovärvilt soovitamse spetsiaalselt selleks mõeldud seemisnahkset kuivatuslappi. Enne auto kuivatamist veenduge, et kuivatuslapil ega ka auto värvile pole jäänud liivaterakesi, mis võiksid hõõrdumisel kahjustada auto värvkatet.</p>
+${pealkiri}</p>
                         </div>
                     </div>
                 </div>

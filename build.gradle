@@ -31,4 +31,9 @@ dependencies {
 	,'javax.servlet:jstl')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 	compile group: 'mysql', name: 'mysql-connector-java', version: '5.1.6'
+	compile("org.springframework.boot:spring-boot-starter")
+    compile("org.springframework:spring-jdbc")
+    //compile("com.h2database:h2")
+    testCompile("junit:junit")
+    
 }

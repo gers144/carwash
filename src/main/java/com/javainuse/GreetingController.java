@@ -5,6 +5,7 @@ import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
+
 @Controller
 public class GreetingController {	
 		@RequestMapping("/welcome.html")
@@ -12,11 +13,12 @@ public class GreetingController {
 		return new ModelAndView("welcome");
 		// TODO Auto-generated constructor stub
 	}
-	String name = SQL1.getName();
 	@RequestMapping("/blog.html")
 	public ModelAndView blogi(ModelMap model) {
 		
-		model.addAttribute("name", name);
+		model.addAttribute("autor", BootGradleApplication.getAutor());
+		model.addAttribute("pealkiri", BootGradleApplication.getPealkiri());
+		model.addAttribute("tekst", BootGradleApplication.getTekst());
 		return new ModelAndView("blog","blankModelName", model);
 		// TODO Auto-generated constructor stub
 	}
