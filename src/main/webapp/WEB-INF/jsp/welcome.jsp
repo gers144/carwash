@@ -29,7 +29,7 @@
     <script src="js/index.js"></script>
 	
 	<script>
-	googleMapGenerator.options.locations = "${mylist}";
+	googleMapGenerator.options.locations = ${mylist};
 	</script>
 </div>    
 

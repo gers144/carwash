@@ -50,17 +50,20 @@ public class BootGradleApplication {
 
 	            String query2 = "select name, location, descr, coordinate, coordinate2, type from pesulad";
 	            rs = stmt.executeQuery(query2);
-	            mylist.add(" [");
+
 	            while (rs.next()) {
-	            	mylist.add("'" + rs.getString(1) + "'");
-	            	mylist.add("'" + rs.getString(2) + "'");
-	            	mylist.add("'" + rs.getString(3) + "'");
-	            	mylist.add(rs.getString(4));
-	            	mylist.add(rs.getString(5));
-	            	mylist.add(rs.getString(6) + "], [");
-	            	
+	            	StringBuilder sb = new StringBuilder();
+	            	sb.append(" [");
+	            	sb.append("'" + rs.getString(1) + "',");
+	            	sb.append("'" + rs.getString(2) + "',");
+	            	sb.append("'" + rs.getString(3) + "',");
+	            	sb.append(rs.getString(4)+",");
+	            	sb.append(rs.getString(5)+",");
+	            	sb.append(rs.getInt(6)+"");
+	            	sb.append( "]");
+					System.out.println(sb.toString());
+					mylist.add(sb.toString());
 	            }
-	            mylist.add("] ");
 	        
 	            String query3 = "select autor, pealkiri, tekst from blog where id=2";
 	            rs = stmt.executeQuery(query3);
