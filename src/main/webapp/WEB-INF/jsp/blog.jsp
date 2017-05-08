@@ -59,12 +59,12 @@
                             <img class="media-object" src="http://www.tutorialspoint.com//scripts/img/logo-footer.png">
                         </a>
                         <div class="media-body">
-                            <h4 class="media-heading"><h1 class="center">${tekst}</h1></h4>
-                            <p class="text-left">By ${autor}</p>
+                            <h1 class="media-heading">${tekst}</h1>
+                             <p class="text-right">By ${pealkiri}</p>
                             <p>
  
 
-${pealkiri}</p>
+${autor}</p>
                         </div>
                     </div>
                 </div>
@@ -74,13 +74,9 @@ ${pealkiri}</p>
                             <img class="media-object" src="http://www.tutorialspoint.com//scripts/img/logo-footer.png">
                         </a>
                         <div class="media-body">
-                            <h1 class="media-heading">Suitsetamise Kahjulikkusest Sõidukis</h1>
-                            <p class="text-right">By Kasipesula</p>
-                            <p>Tervise Arengu Instituut (TAI) alustas sügise alguses kampaaniat, mille eesmärk on suurendada teadlikkust suitsetamise kahjulikest tervisemõjudest ning motiveerida suitsetajaid tubakatarvitamisest loobuma. Ka Tondi Käsipesula on võtnud südameasjaks oma kliente suitsetamise kahjulikkusest teavitada ja seda eelkõige sõidukis.
-
-Tervise Arengu Instituudi spetsialistide sõnul põhjustab autos suitsetamine väga saastunud õhu, mis jääb sinna kauaks ning mõjutab kõikide seal viibijate tervist. Autos suitsetades ei aita puhast õhku säilitada ka akna või ukse avamine, sest suits kandub kergelt tagasi sisse. Rohkem kui 80% mürgisest sigaretisuitsust on nähtamatu. Autos suitsetada ei tohi olenemata sellest, et autos ei pruugi samal ajal teisi inimesi viibida. Suitseta enne sõitmahakkamist või vahepeatuse ajal õues. Ära lase autos suitsetada ka teistel. Lisainfo: http://www.tubakainfo.ee/passiivne-suitse…/kodus-autos-oues/
-
-Tondi Käsipesula esindusest saab igaüks soovi korral kaasa kasulikku lugemist, Tervise Arengu Instituudi poolt koostatud infobrošüüri passiivsest suitsetamisest.</p>
+                            <h1 class="media-heading">${autor1}</h1>
+                            <p class="text-right">By ${pealkiri1}</p>
+                            <p>${tekst1}</p>
                             
                                 
                                 
