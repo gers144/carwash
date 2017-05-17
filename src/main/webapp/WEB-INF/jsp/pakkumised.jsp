@@ -43,7 +43,7 @@
       <div class="item active">
         <img src="images/fishoop.jpg" alt="New York" width="1200" height="700">
         <div class="carousel-caption">
-          <h3>Fishoop OÜ</h3>
+          <h3>Fishoop OU</h3>
           <p>Punane tn 73, 13619, Tallinn, Estonia.</p>
 		  <p>www.fishoop.com</p>
         </div>      
